@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Builds
+backend/dist/
+frontend/dist/
+frontend/.angular/
+coverage/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
